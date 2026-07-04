@@ -1,69 +1,30 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build Files
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.ilk
+*.idb
+*.pdb
+*.recipe
+*.tlog
+*.log
 
-# Build directories
-build/
-Build/
-build-*/
+# User Files
+*.user
 
-# CMake generated files
+# Visual Studio Database
+*.VC.db
+*.VC.opendb
+
+# CMake
 CMakeFiles/
 CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
 
-# Temporary files
+# Temporary Files
 *.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+*.cache
